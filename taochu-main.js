@@ -1,1 +1,252 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2 $n;2 l=1w;2 1x=4(){$n=$(".n n").28(4(){l=H;I();9(!$(g).J(\'a-1y\')){$(g).J(\'a-1y\',1).K(\'\');L()}12{$(g).29()}}).M(\'2a\',4(){l=H;I();L($(g).K())})};2 I=4(){$(\'.c\').6(o.c)}2 1z=4(){2 13=2b.2c(\'\');14(2 i=1;i<=13.q;i++){(4(N){O(4(){9(l){2 6=13.1A(0,N).2d(\'\');$n.K(6);L(6)}},(5*N)*(N/3))})(i)}};2 L=4(6){$(\'.15 .P\').6(\'\');9(6){$(\'.15 .P\').16(4(){2 $b=$(g);2 8=$b.J(\'a-8\');2 t=1B(8,6);$b.6(t)})}};2 1B=4(8,6){14(2 i=0;i<1C[8].q;i++){2 w=1C[8][i];9(w){6=2e[w.w](6,w)}}Q 6};2 17=4(R){2 x=\'1D\'+R+\'2f\';2 1E=(2g(h.2h(x))||0)+1;h.1F(x,1E)};2 1G=4(R){2 x=\'1D\'+R+\'2i\';2 1H=r S().2j();h.1F(x,1H)};2 T=4(6){$(\'.U\').18(\'1I\').V(\'19\');O(4(){$(\'.U\').6(6);$(\'.U\').V(\'1I\');O(4(){$(\'.U\').18(\'19\')},2k)},1J)}2 W=4(){2 7=h.s?1a.1K(h.s):[];$(\'.7 .u\').y(\'\');$.16(7,4(i,a){$j=$(\'<b z="2l"><b z="6"><b z="2m"><i z="2n 2o-c"></i></b></b><b z="1L"></b></b>\');$(\'.6\',$j).1M(a.6);$(\'.1L\',$j).1M(r S(a.1b).2p()+" &2q; "+a.8);$(\'.7 .u\').2r($j);2 X=r A($j.1N(0),{6:4(1O){T(o.2s);Q a.6}});X.M(\'1P\',4(e){B(\'C\',\'D\',\'A E\',\'c\',a.8)})});9(!7.q){$(\'.u\').d();$(\'.F\').f();$(\'.1c\').V(\'1Q\');$(\'.7-1R\').d();$(\'.G\').d();$(\'.1d\').d()}12{$(\'.u\').f();$(\'.F\').d();$(\'.1c\').18(\'1Q\');$(\'.7-1R\').f().6(7.q);$(\'.G\').f().6(\'?\');$(\'.1d\').f()}};2 1S=4(){$(\'.15\').16(4(){2 $t=$(g);2 $c=$(\'.c\',$t);2 $v=$(\'.v\',$t);2 X=r A($c.1N(0),{6:4(1O){l=H;2 1e=$(\'.P\',$t).6();2 7=h.s?1a.1K(h.s):[];7.1f({"6":$n.K(),"1b":r S().1T(),"8":\'2t\'});7.1f({"6":1e,"1b":r S().1T(),"8":$t.a(\'8-1g\')});2 1h={};2 1i=[];14(2 i=0;i<7.q;i++){2 1j=7[i].8+7[i].6;9(1h[1j]===2u){1h[1j]=1w;1i.1f(7[i])}}7=1i.1A(-30);h.s=1a.2v(7);T(o.2w);W();Q 1e}});X.M(\'1P\',4(e){I();$c.6(o.2x);17(\'c\');B(\'C\',\'D\',\'1U E\',\'c\',$t.a(\'8-1g\'))});$(\'.v\',$(g)).m(4(){l=H;2 1V="1k://2y.Y/2z/v?6="+2A($(\'.P\',$t).6()+" 2B 1k://1l.1m.Y/p/2C-2D-2E-2F.y");k.2G(1V,\'2H\');17(\'v\');B(\'C\',\'D\',\'1U E\',\'v\',$t.a(\'8-1g\'))});$(\'.2I\',$(g)).m(4(){1n.1W=$(g).J(\'a-1W\')})})};2 1X=4(j){2 Z=$(k).2J();2 1o=Z+$(k).1Y();2 10=$(j).2K().2L;2 1p=10+$(j).1Y();Q((1p>=Z)&&(10<=1o)&&(1p<=1o)&&(10>=Z))};2 1q;2 11=1Z;2 1r=4(){2 1s=$(k).20()>21;9(11===1Z||1s!=11){11=1s;$(\'y\').1t(\'22\',$(k).20()>21)}}2 23=4(){2M(1q);1q=O(1r,1J)};2 1u=4(){$(\'y\').1t(\'2N\',!1X($(\'.2O\')))};$(4(){1x();1S();$(\'.2P\').m(4(){$(\'y\').1t(\'22\')});$(\'.1c\').m(4(e){2 f=$(\'.7\').2Q().24(":25");B(\'C\',\'D\',\'A E\',f?\'f\':\'d\');e.2R()});$(1v).m(4(e){9($(e.2S).2T($(".7")).q===0){$(".7").d()}});$(1v).M(\'2U\',4(e){9(e.2V===27){$(".7").d()}})$(k).2W(1u).2X(23);$(\'.1d\').m(4(){h.s="";W();T(o.2Y);B(\'C\',\'D\',\'A E\',\'19\')});$(\'.G\').m(4(){9($(\'.F\').24(\':25\')){$(\'.F\').d();$(\'.u\').f();$(\'.G\').6(\'?\')}12{$(\'.F\').f();$(\'.u\').d();$(\'.G\').6(o.2Z)}});9(26){1G(26)}9(l){1z()}1r();1u();W();$(\'31\').V(\'32\')});9(k.1n.33!="1l.1m.Y"){$(1v).34(4(){k.1n="1k://1l.1m.Y/"});',62,191,'||var||function||text|clipboard|transform|if|data|div|copy|hide||show|this|localStorage||el|window|ok_to_run_demo|click|textarea|notify_strings||length|new|yt_clipboard||history|tweet|action|key|html|class|Clipboard|ga|send|event|Action|clipboard_help|toggle_help|false|reset_copy_buttons|attr|val|run_all_transforms|on|pos|setTimeout|value_inner|return|type|Date|notify|notification|removeClass|populateClipboardFromLocalstorage|clip|com|docViewTop|elemTop|lastWidthBig|else|str|for|example|each|bump_counter|addClass|clear|JSON|date|toggle_clipboard|clear_clipboard_container|txt|push|slug|_c_index|_c|index|https|www|taoanhdep|location|docViewBottom|elemBottom|resizeTimer|updateNav|widthBig|toggleClass|onScroll|document|true|init_textarea|touched|run_demo|slice|run_transform|ts|runvn_|count|setItem|last_counter|now|closed|100|parse|meta|append|get|trigger|success|has_clips|counter|init_buttons|toISOString|Transform|url|href|is_scrolled_into_view|height|null|width|600|show_nav|onResize|is|visible|page_type||focus|select|input|hello_text_string|split|join|tfs|_count|parseInt|getItem|_last|getTime|1000|history_item|copy_button|far|fa|toLocaleString|mdash|prepend|recopied|original|undefined|stringify|copied|copied_excl|twitter|intent|encodeURIComponent|via|tao|chu|in|dam|open|_blank|preview|scrollTop|offset|top|clearTimeout|docked|pre_breadcrumb_section|toggle_nav|toggle|stopPropagation|target|closest|keydown|keyCode|scroll|resize|emptied_clipboard|show_clipboard||body|loading|hostname|ready'.split('|'),0,{}))
+var $textarea;
+var ok_to_run_demo = true;
+var init_textarea = function(){
+  $textarea = $(".textarea textarea").focus(function(){
+    ok_to_run_demo = false;
+    reset_copy_buttons();
+    if (!$(this).attr('data-touched')) {
+      $(this).attr('data-touched', 1).val('');
+      run_all_transforms();
+    } else {
+      $(this).select();
+    }
+  }).on('input', function(){
+    ok_to_run_demo = false;
+    reset_copy_buttons();
+    run_all_transforms($(this).val());
+  });
+};
+var reset_copy_buttons = function(){
+  $('.copy').text(notify_strings.copy);
+}
+var run_demo = function(){
+  var str = hello_text_string.split('');
+  for (var i=1;i<=str.length;i++) {
+     (function(pos) {
+         setTimeout(function(){
+           if (ok_to_run_demo) {
+             var text = str.slice(0, pos).join('');
+             $textarea.val(text);
+             run_all_transforms(text);
+           }
+         }, (5 * pos) * (pos / 3));
+     })(i);
+  }
+};
+var run_all_transforms = function(text){
+  $('.example .value_inner').text('');
+  if (text) {
+    $('.example .value_inner').each(function(){
+      var $div = $(this);
+      var transform = $div.attr('data-transform');
+      var t = run_transform(transform, text);
+      $div.text(t);
+    });
+  }
+};
+var run_transform = function(transform, text) {
+  for (var i = 0; i < ts[transform].length; i++) {
+    var action = ts[transform][i];
+    if (action) {
+      text = tfs[action.action](text, action);
+    }
+  }
+  return text;
+};
+var bump_counter = function(type){
+  var key = 'runvn_' + type + '_count';
+  var count = (parseInt(localStorage.getItem(key)) || 0) + 1;
+  localStorage.setItem(key, count);
+};
+var last_counter = function(type){
+  var key = 'runvn_' + type + '_last';
+  var now = new Date().getTime();
+  localStorage.setItem(key, now);
+};
+var notify = function(text){
+  $('.notification').addClass('closed').removeClass('clear');
+  setTimeout(function(){
+    $('.notification').text(text);
+    $('.notification').removeClass('closed');
+    setTimeout(function(){
+      $('.notification').addClass('clear');
+    }, 1000);
+  }, 100);
+}
+var populateClipboardFromLocalstorage = function(){
+  var clipboard = localStorage.yt_clipboard ? JSON.parse(localStorage.yt_clipboard) : [];
+  $('.clipboard .history').html('');
+  $.each(clipboard, function(i, data){
+    $el = $('<div class="history_item"><div class="text"><div class="copy_button"><i class="far fa-copy"></i></div></div><div class="meta"></div></div>');
+    $('.text', $el).append(data.text);
+    $('.meta', $el).append(new Date(data.date).toLocaleString() + " &mdash; " + data.transform);
+    $('.clipboard .history').prepend($el);
+    var clip = new Clipboard($el.get(0), {
+        text: function(trigger) {
+          notify(notify_strings.recopied);
+          return data.text;
+        }
+    });
+    clip.on('success', function(e) {
+      ga('send', 'event', 'Clipboard Action', 'copy', data.transform);
+    });
+  });
+  if (!clipboard.length) {
+    $('.history').hide();
+    $('.clipboard_help').show();
+    $('.toggle_clipboard').removeClass('has_clips');
+    $('.clipboard-counter').hide();
+    $('.toggle_help').hide();
+    $('.clear_clipboard_container').hide();
+  } else {
+    $('.history').show();
+    $('.clipboard_help').hide();
+    $('.toggle_clipboard').addClass('has_clips');
+    $('.clipboard-counter').show().text(clipboard.length);
+    $('.toggle_help').show().text('?');
+    $('.clear_clipboard_container').show();
+  }
+};
+var init_buttons = function(){
+  $('.example').each(function(){
+    var $t = $(this);
+    var $copy = $('.copy', $t);
+    var $tweet = $('.tweet', $t);
+    var clip =  new Clipboard($copy.get(0), {
+        text: function(trigger) {
+            ok_to_run_demo = false;
+            var txt = $('.value_inner', $t).text();
+            var clipboard = localStorage.yt_clipboard ? JSON.parse(localStorage.yt_clipboard) : [];
+            clipboard.push({
+              "text" : $textarea.val(),
+              "date" : new Date().toISOString(),
+              "transform" : 'original'
+            });
+            clipboard.push({
+              "text" : txt,
+              "date" : new Date().toISOString(),
+              "transform" : $t.data('transform-slug')
+            });
+            var _c_index = {};
+            var _c = [];
+            for (var i = 0; i < clipboard.length; i++) {
+              var index = clipboard[i].transform + clipboard[i].text;
+              if (_c_index[index] === undefined) {
+                _c_index[index] = true;
+                _c.push(clipboard[i]);
+              }
+            }
+            clipboard = _c.slice(-30);
+            localStorage.yt_clipboard = JSON.stringify(clipboard);
+            notify(notify_strings.copied);
+            populateClipboardFromLocalstorage();
+            return txt;
+        }
+    });
+    clip.on('success', function(e) {
+      reset_copy_buttons();
+      $copy.text(notify_strings.copied_excl);
+      bump_counter('copy');
+      ga('send', 'event', 'Transform Action', 'copy', $t.data('transform-slug'));
+    });
+    $('.tweet', $(this)).click(function(){
+      ok_to_run_demo = false;
+      var url = "https://twitter.com/intent/tweet?text="+encodeURIComponent($('.value_inner', $t).text()+" via https://www.taoanhdep.com/p/tao-chu-in-dam.html");
+      window.open(url, '_blank');
+      bump_counter('tweet');
+      ga('send', 'event', 'Transform Action', 'tweet', $t.data('transform-slug'));
+    });
+    $('.preview', $(this)).click(function(){
+      location.href = $(this).attr('data-href');
+    });
+  });
+};
+var is_scrolled_into_view = function(el) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(el).offset().top;
+    var elemBottom = elemTop + $(el).height();
+    return ((elemBottom >= docViewTop)
+      && (elemTop <= docViewBottom)
+      && (elemBottom <= docViewBottom)
+      && (elemTop >= docViewTop));
+};
+
+var resizeTimer;
+var lastWidthBig = null;
+var updateNav = function(){
+  var widthBig = $(window).width() > 600;
+  if (lastWidthBig === null || widthBig != lastWidthBig) {
+    lastWidthBig = widthBig;
+    $('html').toggleClass('show_nav', $(window).width() > 600)
+  }
+}
+var onResize = function(){
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(updateNav, 100);
+};
+var onScroll = function() {
+  $('html').toggleClass('docked', !is_scrolled_into_view($('.pre_breadcrumb_section')));
+};
+
+$(function(){
+  init_textarea();
+  init_buttons();
+
+  $('.toggle_nav').click(function(){
+    $('html').toggleClass('show_nav');
+  });
+
+  $('.toggle_clipboard').click(function(e){
+    var show = $('.clipboard').toggle().is(":visible");;
+    ga('send', 'event', 'Clipboard Action', show ? 'show' : 'hide');
+    e.stopPropagation();
+  });
+
+  $(document).click(function(e){
+    if ($(e.target).closest($(".clipboard")).length === 0) {
+      $(".clipboard").hide();
+    }
+  });
+
+  $(document).on('keydown', function(e) {
+    if (e.keyCode === 27) {
+      $(".clipboard").hide();
+    }
+  })
+
+  $(window).scroll(onScroll).resize(onResize);
+
+  $('.clear_clipboard_container').click(function(){
+    localStorage.yt_clipboard = "";
+    populateClipboardFromLocalstorage();
+    notify(notify_strings.emptied_clipboard);
+    ga('send', 'event', 'Clipboard Action', 'clear');
+  });
+
+  $('.toggle_help').click(function(){
+    if ($('.clipboard_help').is(':visible')) {
+      $('.clipboard_help').hide();
+      $('.history').show();
+      $('.toggle_help').text('?');
+    } else {
+      $('.clipboard_help').show();
+      $('.history').hide();
+      $('.toggle_help').text(notify_strings.show_clipboard);
+    }
+  });
+
+  if (page_type) {
+    last_counter(page_type); // home, style, howto, etc
+  }
+
+  if (ok_to_run_demo) {
+    run_demo();
+  }
+
+  updateNav();
+  onScroll();
+  populateClipboardFromLocalstorage();
+  $('body').removeClass('loading');
+});
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(\'N\').O(\'<p P="Q-R: -S;U: V;W: -X;"><a 2="3://4.5.6/" 7="8" 9="Tạo Ả0 Đẹp | Cá1 tạo ả0 và x sẻ tài zên">Tạo Ả0 Đẹp | Cá1 tạo ả0 và x sẻ tài zên</a><a 2="3://4.5.6/p/j.e" 7="8" 9="Tạo ả0 j với hì0 nền cá 0ân">Tạo ả0 j với hì0 nền cá 0ân</a><a 2="3://4.5.6/p/Y-f.e" 7="8" 9="A f - côb cụ 1ỉ0 sửa ả0 f">A f - côb cụ 1ỉ0 sửa ả0 f</a><a 2="3://4.5.6/Z/10/11-12-13-14-15-16-17-18-19.e" 7="8" 9="Cá1 Tạo Tên Kí Tự Đặc Bệt D Eên Fân G">Cá1 Tạo Tên Kí Tự Đặc Bệt D Eên Fân G</a><a 2="3://4.5.6/1a/1b/H%1c%1d%1e%1f%1g%1h" 7="8" 9="Hì0 nền I máy tí0 - điện gại">Hì0 nền I máy tí0 - điện gại</a><a 9="J hơn k q r w 1ỉ0 màu Lệt đẹp" 7="8" 2="3://4.5.6/M/1i/1j-1k-k-q-r-w.e">J hơn k q r w 1ỉ0 màu Lệt đẹp</a><a 9="Tổb hợp ả0 đẹp, 1ất dùb làm hì0 nền điện gại" 7="8" 2="3://4.5.6/M/1l/1m-1n-1o-1p-1q-1r-1s-1t-1u.e">Tổb hợp ả0 đẹp, 1ất dùb làm hì0 nền điện gại</a></p>\');',62,93,'nh|ch|href|https|www|taoanhdep|com|ref|dofollow|title||ng|||html|online|tho|||instagram|1000||||||preset|lightroom|||||free|chia||nguy|Photoshop|Bi||Game|Li|Qu|Mobile||cho|Share||tuy|2020|body|append|style|text|indent|99999px||position|absolute|top|90px|photoshop|2017|05|ten|ki|tu|dac|biet|game|lien|quan|mobile|search|label|C3|ACnh|20n|E1|BB|81n|03|share|hon|04|tong|hop|anh|dep|lam|hinh|nen|dien|thoai'.split('|'),0,{}))
